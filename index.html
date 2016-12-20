@@ -9,27 +9,34 @@
     <title>HTML</title>
     </head>
 <body>
-<div class="container">
-    <table class="table">
-        <thead>
-        <tr>
-              <th>id</th>
-              <th>name</th>
-              <th>descript</th>
-              <th>price</th>
-        </tr>
-        </thead>
-        <tbody id="mytabbody">
-        </tbody>
-        <tfoot>
-        </tfoot>
-    </table>
+<h2>Data Table</h2>
+<div class="panel panel-default">
+    <div class="panel-body">
+        <div class="container">
+            <table class="table">
+                <thead>
+                <tr>
+                      <th>id</th>
+                      <th>name</th>
+                      <th>descript</th>
+                      <th>price</th>
+                </tr>
+                </thead>
+                <tbody id="mytabbody">
+                </tbody>
+                <tfoot>
+                </tfoot>
+            </table>
+        </div>
+        <button type="button" class="btn btn-primary" onclick="randTableStart()">RondStart</button>
+        <button type="button" class="btn btn-secondary" onclick="randTableStop()">RondStop</button>
+        <button type="button" class="btn btn-success" onclick="sortTable()">SortD</button>
+        <button type="button" class="btn btn-info" onclick="genTable()">GenTable</button>
+        <button type="button" class="btn btn-danger" onclick="cleanTable()">ClearTab</button>
+    </div>
 </div>
-<button type="button" class="btn btn-primary" onclick="randTableStart()">RondStart</button>
-<button type="button" class="btn btn-secondary" onclick="randTableStop()">RondStop</button>
-<button type="button" class="btn btn-success" onclick="sortTable()">SortD</button>
-<button type="button" class="btn btn-info" onclick="genTable()">GenTable</button>
-<button type="button" class="btn btn-danger" onclick="cleanTable()">ClearTab</button>
+
+
 
 
 </body>
