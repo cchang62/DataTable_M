@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Latest compiled and minified CSS 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity=" sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>HTML</title>
+    </head>
+<body>
+<div class="container">
+    <table class="table">
+        <thead>
+        <tr>
+              <th>id</th>
+              <th>name</th>
+              <th>descript</th>
+              <th>price</th>
+        </tr>
+        </thead>
+        <tbody id="mytabbody">
+        </tbody>
+        <tfoot>
+        </tfoot>
+    </table>
+</div>
+<button type="button" class="btn btn-primary" onclick="randTableStart()">RondStart</button>
+<button type="button" class="btn btn-secondary" onclick="randTableStop()">RondStop</button>
+<button type="button" class="btn btn-success" onclick="sortTable()">SortD</button>
+<button type="button" class="btn btn-info" onclick="genTable()">GenTable</button>
+<button type="button" class="btn btn-danger" onclick="cleanTable()">ClearTab</button>
+
+
+</body>
+<script src="json/index.json"></script>
+<script src="js/index.js"></script>
+</html>

@@ -1,0 +1,35 @@
+var datatab =   {
+    "result": "successful",
+    "list": [
+        {
+            "id": "5",
+            "name": "fgh",
+            "descript": "description1",
+            "price": 123
+        },
+        {
+            "id": "1",
+            "name": "rty",
+            "descript": "description2",
+            "price": 345
+        },
+        {
+            "id": "2",
+            "name": "asd",
+            "descript": "description3",
+            "price": 567
+        },
+        {
+            "id": "15",
+            "name": "qwe",
+            "descript": "description4",
+            "price": 235
+        },
+        {
+            "id": "20",
+            "name": "def",
+            "descript": "description5",
+            "price": 678
+        }
+    ]
+}
